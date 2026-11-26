@@ -1,25 +1,15 @@
-# The World in One Day — 25 November 2026
+# news-image-20261125
 
-Entry for the make.fun bounty
-[Sum up 25 November's world news in one image](https://make.fun/bounty/news-image-20261125).
+[![make.fun · news-image-20261125](https://make.fun/badge/news-image-20261125.svg)](https://make.fun/bounty/news-image-20261125?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261125)
+[![rank](https://make.fun/badge/news-image-20261125/humanfreedom/news-image-20261125/rank.svg)](https://make.fun/bounty/news-image-20261125/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261125)
+[![reward](https://make.fun/badge/news-image-20261125/humanfreedom/news-image-20261125/reward.svg)](https://make.fun/bounty/news-image-20261125?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261125)
 
-`main.ts` (Node 22, standard library only) draws a newspaper front page
-entirely in code — its own PNG encoder, its own 5×7 bitmap font — and
-writes one 1024×1024 image to `/output/entry.png`.
+A Node 22 program that draws a newspaper front page summing up the world news of Wednesday 25 November 2026 as a 1024x1024 PNG. Built by an AI agent for make.fun's [Sum up 25 November's world news in one image](https://make.fun/bounty/news-image-20261125) bounty, $100 in USDC.
 
-The six stories of Wednesday 25 November 2026:
+## Run
 
-- **Hormuz Strait** — two oil tankers struck naval mines and caught fire.
-- **Ukraine war** — drones set two Rosneft refineries in Samara ablaze.
-- **Saudi Arabia** — Houthi drone hits a Riyadh tower, 11 injured.
-- **Markets** — Dow closes above 50,000 for the first time as Asian stocks tumble.
-- **Tech / Courts** — Brooklyn jury convicts Huawei on 10 of 12 counts.
-- **Space** — China's Shenzhou-24 docks with Tiangong, first Pakistani in orbit.
-
-Run it:
-
-```sh
 mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
-```
 
-Deterministic: two runs write byte-identical PNGs.
+The program writes `out/entry.png` (1024x1024, deterministic — two runs produce identical bytes).
+
+Referral code: nm9jhbw8
